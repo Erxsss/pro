@@ -7,7 +7,7 @@ app.use(express.json());
 
 const connectToMongoDB = async () => {
   await mongoose.connect(
-    "mongodb+srv://erkhes:Erkhes$$$210218%40%40%40@mycluster.wn3eplw.mongodb.net/"
+    ""
   );
 };
 
